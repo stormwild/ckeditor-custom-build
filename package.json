@@ -4,11 +4,18 @@
   "description": "Custom CKEditor Build",
   "main": "index.js",
   "scripts": {
+    "build": "webpack --mode development",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Alexander R. Torrijos <https://stormwild.github.io/>",
   "license": "MIT",
   "dependencies": {
+    "@ckeditor/ckeditor5-basic-styles": "^35.3.2",
+    "@ckeditor/ckeditor5-dev-utils": "^31.1.13",
+    "@ckeditor/ckeditor5-editor-classic": "^35.3.2",
+    "@ckeditor/ckeditor5-essentials": "^35.3.2",
+    "@ckeditor/ckeditor5-paragraph": "^35.3.2",
+    "@ckeditor/ckeditor5-theme-lark": "^35.3.2",
     "css-loader": "^5.2.7",
     "postcss-loader": "^4.3.0",
     "raw-loader": "^4.0.2",
