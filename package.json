@@ -1,0 +1,19 @@
+{
+  "name": "ckeditor-custom-build",
+  "version": "1.0.0",
+  "description": "Custom CKEditor Build",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alexander R. Torrijos <https://stormwild.github.io/>",
+  "license": "MIT",
+  "dependencies": {
+    "css-loader": "^5.2.7",
+    "postcss-loader": "^4.3.0",
+    "raw-loader": "^4.0.2",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^4.10.0"
+  }
+}
